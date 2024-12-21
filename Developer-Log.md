@@ -13,4 +13,8 @@ something fun to implement. -shrug- <br>
 Plan is to do some more further research into maybe a docker setup, will start
 with something simple. <br>
 Maybe something with Grafana and Openshift as that's what ACC used in their demo.
+- 12/21/2024 <br>
+Got setup with minikube for kubernetes cluster <br>
+Deployed kafka in kubernetes using strimzi, still need to consider how I'll deploy a <br>
+dynamic producer consumer later on
 
