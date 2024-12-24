@@ -17,4 +17,8 @@ Maybe something with Grafana and Openshift as that's what ACC used in their demo
 Got setup with minikube for kubernetes cluster <br>
 Deployed kafka in kubernetes using strimzi, still need to consider how I'll deploy a <br>
 dynamic producer consumer later on
+Might need to dynamically create yaml files to deploy the consumers/producers?<br>
+Do I need to keep the state for the current producer then?<br>
+Or can I modify the existing state of a running producer? -> perhaps an easy deploy wont 
+be enough for this
 
