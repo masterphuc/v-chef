@@ -21,4 +21,8 @@ Might need to dynamically create yaml files to deploy the consumers/producers?<b
 Do I need to keep the state for the current producer then?<br>
 Or can I modify the existing state of a running producer? -> perhaps an easy deploy wont 
 be enough for this
+- 12/24/2024 <br>
+Looks like it would make a lot of sense for this demo project that I also include a build
+for the producer and consumer since we need an orchestration of sort to control the flow
+of data on the producer and consumer side <br>
 
