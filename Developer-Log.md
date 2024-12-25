@@ -25,4 +25,7 @@ be enough for this
 Looks like it would make a lot of sense for this demo project that I also include a build
 for the producer and consumer since we need an orchestration of sort to control the flow
 of data on the producer and consumer side <br>
-
+- 12/25/2024 <br>
+Setup a basic producer <br>
+Next is to look to connect the producer to Kafka in my minikube environment to test if 
+the producer works as expected 
