@@ -24,6 +24,7 @@
         <slf4j.version>2.0.7</slf4j.version>
         <spring-cloud-dependencies.version>2022.0.0</spring-cloud-dependencies.version>
         <spring.version>3.0.5</spring.version>
+        <kafka.version>3.9.0</kafka.version>
     </properties>
 
     <dependencies>
@@ -42,6 +43,12 @@
             <artifactId>slf4j-simple</artifactId>
             <version>${slf4j.version}</version>
         </dependency>
+        <dependency>
+            <groupId>org.apache.kafka</groupId>
+            <artifactId>kafka-clients</artifactId>
+            <version>${kafka.version}</version>
+        </dependency>
+
     </dependencies>
 
     <dependencyManagement>
@@ -84,6 +91,11 @@
                 <version>${spring-cloud-dependencies.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.kafka</groupId>
+                <artifactId>spring-kafka</artifactId>
+                <version>${spring.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
